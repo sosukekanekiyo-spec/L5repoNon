@@ -1,0 +1,22 @@
+/* Position caterpillar section  */
+#caterpillar {
+    position: absolute;
+    /* top: 120px; */
+    float: left;
+}
+
+/* Style body/tail */
+.body {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    float: left;
+}
+
+/* Style head */
+#head {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    float: left;
+}

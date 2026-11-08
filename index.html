@@ -1,0 +1,37 @@
+//shift + tab + 1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- Set up intro -->
+    <h1>Some things you can do easily with jQuery</h1>
+    <p>Click the buttons or press the corresponding keys</p>
+
+    <!-- Section for controlling animation -->
+    <div class="controls">
+        <button id='animator'>Animate (1)</button>
+        <button id='reset'>Stop Animation (2)</button>
+        <button id='fader'>Fade in/out (3)</button>
+        <button id='grow'>Add a segment (4)</button>
+    </div>
+    
+    <br>
+
+    <!-- Caterpillar set up -->
+    <div id='caterpillar'>
+        <div id="tail" class="body"></div>
+        <div id="head" ></div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
